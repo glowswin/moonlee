@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="ko">
+<body>
+    <header th:fragment="header">
+      <div class="header-cont">
+        <div class="header-cont__title">리문캠프</div>
+        <div class="header-cont__button"><i class="fa fa-bars"></i></div>
+        <div class="header-cont__login">로그인 회원가입</div>
+        <div class="header-cont__momenu">
+          <ul>
+            <li class="header-cont__momenu__menu">
+              <a href="/" >홈</a>
+            </li>
+            <li class="header-cont__momenu__menu">
+              <a href="/intro">안내</a>
+            </li>
+            <li class="header-cont__momenu__menu">
+              <a href="readme.html">소개</a>
+            </li>
+            <li class="header-cont__momenu__menu">
+              <a href="notice.html">공지사항</a>
+            </li>
+            <li class="header-cont__momenu__menu">
+              <a href="faq.html">FAQ</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="header-menu">
+        <ul>
+          <li><a href="/">홈</a></li>
+          <li><a href="/intro">안내</a></li>
+          <li><a href="readme.html">소개</a></li>
+          <li><a href="notice.html">공지사항</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+        </ul>
+      </div>
+    </header>
+</body>
+</html>
